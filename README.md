@@ -51,13 +51,13 @@ git clone <your-repo-url>
 cd <repo-folder>
 ```
 
-2. **Install dependencies (if not using Docker), I suggest making a virtual environment:**:
+2. **Install dependencies (if not using Docker), I suggest making a virtual environment**:
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. **Run the app:**:
+3. **Run the app**:
 
 ```bash
 streamlit run streamlit_app.py
@@ -65,13 +65,13 @@ streamlit run streamlit_app.py
 
 ### Running with Docker
 
-1. **Build Docker image:**:
+1. **Build Docker image**:
 
 ```bash
 docker build -t pdf-summarizer-app
 ```
 
-2. **Run the app in a container:**:
+2. **Run the app in a container**:
 
 ```bash
 docker run -p 8501:8501 pdf-summarizer-app
@@ -79,8 +79,8 @@ docker run -p 8501:8501 pdf-summarizer-app
 
 ### Notes
 
-- OpenAI API key is optional but recommended for better summaries.\n
-- Preview summaries before generating outputs to make adjustments if needed.\n
+- OpenAI API key is optional but recommended for better summaries.
+- Preview summaries before generating outputs to make adjustments if needed.
 - Both slides and videos can be downloaded for offline use.
 
 
