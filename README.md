@@ -8,7 +8,7 @@ This project provides an interface to convert PDF documents into interactive, le
 
 - **Streamlit Interface:** Provides a user-friendly interface to upload PDFs, preview summaries, and generate slides or videos.
 - **Summarization Options:**
-  - **OpenAI GPT-4:** High-quality summarization with prompt engineering for engaging and learnable content. Requires a valid OpenAI API key.
+  - **OpenAI GPT-4:** High-quality summarization for engaging and learnable content. Requires a valid OpenAI API key.
   - **T5-small (Hugging Face):** Works offline on CPU; quality is reasonable but not as good as OpenAI.
 - **Page-wise Summarization:** Each PDF page is summarized individually.
 - **Preview Feature:** Users can preview summaries before generating slides or videos.
